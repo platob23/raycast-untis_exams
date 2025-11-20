@@ -90,7 +90,7 @@ export default function Command() {
                 {
                   tag: {
                     value: daysLeft.toString(),
-                    color: daysLeft <= 2 ? Color.Red : Color.Green,
+                    color: daysLeft <= 2 ? Color.Red : Color.SecondaryText,
                   }, tooltip: daysLeft <= 2 ? "Ich würde lernen" : "Alles gut [o]"
                 },
                 {
